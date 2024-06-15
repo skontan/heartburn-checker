@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Heartburn Checker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Heartburn Checker is a web application designed to assess symptoms related to heartburn and provide appropriate medical recommendations based on user responses. This application guides users through a series of questions about their symptoms and health history to determine the severity of their condition.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Running Tests](#running-tests)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the Heartburn Checker locally, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+   ```
+   git clone https://github.com/skontan/heartburn-checker.git
+   cd heartburn-checker
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies using npm:
 
-### `npm run build`
+   ```
+   npm run start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   This will launch the Heartburn Checker application locally. Open your web browser and navigate to http://localhost:3000 to view it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Answer each question presented on the screen by clicking on the appropriate answer.
 
-### `npm run eject`
+2. Click the "Next" button to proceed to the next question.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. After answering all questions, the application will display a recommendation based on your responses.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The Heartburn Checker is built using the following technologies and libraries:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React: Frontend library for building user interfaces.
+- Material-UI: React component library for designing responsive and accessible UIs.
+- TypeScript: Typed JavaScript superset for improved code quality and maintainability.
+- React Testing Library: Testing utilities for integration tests to ensure application functionality.
 
-## Learn More
+## Running Tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can run integration tests to verify the functionality of the Heartburn Checker:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run test
+```
+
+This command will execute the integration tests using React Testing Library, ensuring that the application behaves correctly across different scenarios.
